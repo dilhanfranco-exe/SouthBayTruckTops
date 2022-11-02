@@ -1,3 +1,9 @@
+html, body {
+  overflow-x: hidden !important;
+  width: 100vw !important;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -217,7 +223,7 @@ header {
 }
 
 .icons h2 {
-  font-size: 2.3em;
+  font-size: 1.7em;
 }
 
 .icons h2 span {
@@ -569,15 +575,15 @@ in Javascript later on*/
     padding: 0.4em 1em;
     border-radius: 0.7em;
   }
-  
-  header {
-    background: url(assets/Index/header-1.jpeg) no-repeat left -40px center;
-    background-size: cover;
-  }
 
-  /*Hides the text in the index file, to limit the amount of elements covering up the header image*/
+    /*Hides the text in the index file, to limit the amount of elements covering up the header image*/
   .index-text {
     display: none;
+  }
+ 
+  header {
+    background: url(assets/Index/header-1.jpeg) no-repeat left -140px center;
+    background-size: cover;
   }
 
   .folding{
